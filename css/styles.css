@@ -1,0 +1,176 @@
+body{
+    font-family:'Montserrat ';
+}
+
+#title{
+    background-color: #ff4c68;
+    padding: 3% 5% 7%;
+}
+h1{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight:550;
+    font-size: 68px;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 32px;
+}
+h2{
+    font-family: "Montserrat-bold";
+    font-size: 3rem;
+    
+
+}
+/* headings */
+.big-heading{
+    
+}
+.container-fluid{
+    padding: 4% 15%;/*top,l/r;bottom*/
+}
+.navbar-brand{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-right: 20rem;
+     font-family: 'Ubuntu';
+    
+}
+.navbar{
+    padding: 0 0 4.5rem;
+    margin-top: 0;
+}
+.nav-item{
+  margin: 40px;
+  
+}
+.nav-link{
+    font-size: larger;
+}
+
+.btn {
+    margin-right: 30px;
+    text-align: center;
+    margin-left: 12px;
+}
+.rotated{
+    transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+    margin : 30px 12px 12px;
+    right: 20%;
+    position: absolute;
+  }
+  h3{
+    font-family: "Montserrat-bold";
+    font-size:1.5rem;
+    font-weight: bolder;
+    
+  }
+  p{
+     
+      color: #8f8f8f;
+  }
+  .btnf{
+      color: #ef8172;
+      padding: 10% 5%;
+  }
+  .btnf :hover{
+      color: #ff4c68;
+  }
+  #features{
+     padding: 5% 15% 7%;
+     background-color: white;
+     position: relative;
+     z-index: 1;
+  }
+
+ .featurebox{
+     
+     padding: 5%;
+     text-align: center;
+ }
+  /* Testimonials */
+  #testimonials{
+     
+      text-align: center;
+      background-color: #ef8172;
+      color: white;
+  }
+  .carousel-item{
+    padding: 7% 15%;
+  }
+  .test-img{
+      width: 15%;
+      border-radius: 100%;
+     padding: 3%;
+     
+  }
+
+  #press{
+      background-color: #ef8172;
+      text-align: center;
+      padding-bottom: 20px;
+  }
+  .press-logo{
+      width :15%;
+      margin: 20px 20px 50px;
+  }
+
+  /* pricing styling */
+
+  #pricing{
+      padding: 100px;
+      text-align: center;
+  }
+  .pricing-coloumn{
+      padding: 3% 2%;
+  }
+
+  /* adding z axis by myself
+  .zaxis1{
+      position: relative;
+      z-index: 1;
+      bottom: 290px;
+     
+  }
+
+  .zaxis{
+      position: relative;
+      
+  }*/
+
+  @media (max-width:1000px){
+      #title{
+          text-align: center;
+      }
+     
+      .rotated{
+        transform: rotate(0);
+        position:static;
+      }
+  }
+
+  /* call to action */
+
+  #cta{
+      background-color: #ff4c68;
+      padding: 7% 15% 7%;
+      text-align: center;
+
+  }
+  .cta-h3{
+   
+    font-family: "Montserrat-black";
+    font-weight:400;
+    font-size: 68px;
+    line-height: 1.5;
+    color: white;
+    padding-bottom: 3%;
+  }
+
+  #footer{
+      padding: 2% 5%;
+      text-align: center;
+      
+  }
+.footericn{
+    margin-left: 9px;
+    padding-bottom:3px ;
+}
